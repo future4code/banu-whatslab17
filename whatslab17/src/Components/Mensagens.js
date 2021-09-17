@@ -9,7 +9,6 @@ const Caixa = styled.div`
     border: 5px solid gray;
     margin-bottom: 10px;
     width: 100vw;
-
 `
 
 const Foto = styled.img`
