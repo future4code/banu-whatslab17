@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-image: url('https://img.ibxk.com.br///2016/09/13/13162448904561.jpg?w=1200&h=675&mode=crop&scale=both');
  /* min-height: 100vh; */
