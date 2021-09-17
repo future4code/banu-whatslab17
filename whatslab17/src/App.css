@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,14 +8,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url('https://img.ibxk.com.br///2016/09/13/13162448904561.jpg?w=1200&h=675&mode=crop&scale=both');
+ /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-body {
+  background-image: url('https://i.pinimg.com/originals/62/40/b6/6240b66d5c50c8661eee78b439a7d33c.jpg');
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .App-link {
@@ -35,4 +38,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Mensagens-body{
+  flex-grow: 1;
+  border-left: 50px;
+
+}
+
+.Chat-body {
+  flex-grow: 2;
 }
