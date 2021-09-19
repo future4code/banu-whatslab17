@@ -10,7 +10,6 @@ function App() {
       </header>
       <body className="App-body">
       <div className="Mensagens-body"> <Mensagens/> </div>
-      <div className="Chat-body"><Chat/> </div>
       </body>
     </div>
   );
